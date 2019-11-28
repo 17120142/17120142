@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing:border-box;
+    height: 100%;
+    line-height: 1.8px;
+}
+*,*:before,*:after{
+    box-sizing:inherit
+}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+body{
+    margin:0;
+    height: 100%;
+    line-height: 1.8px;
+}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
+    display:block
+}
+summary {
+     display: list-item;
+}
+a{
+    background-color:transparent
+}
+a:active,a:hover{
+    outline-width:0
+}
+abbr[title]{
+    border-bottom:none;
+    text-decoration:underline;
+    text-decoration:underline dotted;
+}
+b,strong{
+    font-weight:bolder;
+}
+dfn{
+    font-style:italic;
+}
+small{
+    font-size:80%
+}
+img{
+    border-style:none;
+}
+button,input,select,textarea,optgroup{
+    font:inherit;
+    margin:0;
+}
+optgroup{
+    font-weight:bold;
+}
+button,input{
+    overflow:visible;
+}button,select{
+     text-transform:none;
+ }
+button,[type=button],[type=reset],[type=submit]{
+    -webkit-appearance:button;
+}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
+    border-style:none;
+    padding:0;
+}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{
+    outline:1px dotted ButtonText;
+}
+fieldset{
+    border:1px solid #c0c0c0;
+    margin:0 2px;
+    padding:.35em .625em .75em;
+}
+/* End extract */
+html,body{
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5;
+}
+html{
+    overflow-x:hidden;
+}
+hr{
+    border:0;
+    border-top:1px solid #eee;
+    margin:20px 0;
+}
+.web-image{
+    max-width:100%;
+    height:auto;
+}
+img{
+    vertical-align:middle;
+}
+a{
+    color:inherit;
+}
+.table{
+    border-collapse:collapse;
+    width: 100%;
+    border:1px solid black;
+}
+th{
+    height: 50%;
+    border:1px solid black;
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+td{
+    border:1px solid black;
+    padding: 10px;
+}
+
+#tab h3 {
+    color : black;
+    background-color: lightblue;
+    padding : 5px 15px;
+}
+
+.w3-hover-opacity {cursor: pointer;}
+
