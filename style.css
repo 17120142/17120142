@@ -130,3 +130,11 @@ td{
     padding-right: 5%;
     padding-left: 5%;
 }
+.icon{
+    color: silver;
+    font-size: 20px;
+}
+.po{
+    align-content: center;
+    padding-left: 40%;
+}
