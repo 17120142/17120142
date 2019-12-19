@@ -118,23 +118,58 @@ td{
     padding: 10px;
 }
 
-#tab h3 {
+typography {
     color : black;
-    background-color: lightblue;
     padding : 5px 15px;
 }
-
 .w3-hover-opacity {cursor: pointer;}
 
 .image{
     padding-right: 5%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .icon{
     color: silver;
     font-size: 20px;
 }
 .po{
-    align-content: center;
-    padding-left: 40%;
+    margin: auto;
+    float: inherit;
+}
+
+.hide{
+    display: none !important;
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-left{
+    float: left !important;
+}
+
+.breadcrumb{
+    top: 10px;
+    padding-right: 0;
+    background: none;
+    position: relative;
+}
+
+.text{
+    padding-left: 15px;
+}
+
+.breadcrumbs{
+    padding: 10px 0 6px;
+    overflow: hidden;
+}
+
+.pad{
+    padding-left: 2.5%;
+    padding-top: 2px;
 }

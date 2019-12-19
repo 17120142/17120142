@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, minimum-scale=0.1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,22 +30,210 @@
     </div>
 </div>
 <header class="w3-display-container w3-content w3-wide" style="max-width: 100%;" id="home">
-    <img class="w3-image" src="http://pluspng.com/img-png/png-sky-background-blue-sky-background-sky-blue-sky-background-sky-clouds-background-image-832.jpg" alt="Group 17" width="1500" height="250">
+    <img class="w3-image" src="http://pluspng.com/img-png/png-sky-background-blue-sky-background-sky-blue-sky-background-sky-clouds-background-image-832.jpg" alt="Group 17" width="150px" height="150px">
     <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-while"><span class="w3-padding w3-black w3-opacity-min"><b>Group 17 - Style Guide</b></span> </h1>
     </div>
 </header>
 
+<div class="breadcrumbs pad">
+    <ol class="breadcrumb">
+        <li><a href="index.html" style="font-size: 20px">Group 17</a> </li>
+        <li><a href="about.html" style="font-size: 20px ">About</a> </li>
+    </ol>
+</div>
+
+<div class="w3-content w3-padding" style="max-width:1600px; text-align: center;">
+    <div class="w3-container w3-padding-35" id="projects">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Style Guide</h3>
+    </div>
+</div>
+
+<div id="tab" class="container">
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#1" >Typography</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#2">Color</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#3">Table</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#4">Icon</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#5">Layout</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#6">Directory</a>
+        </li>
+    </ul>
+
+    <div class="tab-content ">
+        <div class="tab-pane active" id="1">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16 typography">
+                    <h3>Typography</h3>
+                    <hr>
+                    <h1 style="padding-top: 2px">This is H1 Heading.</h1>
+                    <h2 style="margin-top: 5px">This is H2 Heading.</h2>
+                    <h3 style="margin-top: 5px">This is H3 Heading.</h3>
+                    <h4 style="margin-top: 5px">This is H4 Heading.</h4>
+                    <h5 style="margin-top: 5px">This is H5 Heading.</h5>
+                    This is H6 Heading.
+                    <hr>
+                    <h3>Text</h3>
+                    <hr>
+                    <p class="w3-opacity">This is a sample paragraph to try out typography, which makes absolutely no sense.</p>
+                    <p class="w3-margin-bottom">This is a sample paragraph to try out typography, which makes absolutely no sense.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tab-pane fade" id="2">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                    <h3>Color</h3>
+                    <hr>
+                    <button class="w3-button w3-light-grey" style="border: 1px #212529; width: 100px; height: 50px;"> Light Grey </button>
+                    &#160; &#160;
+                    <button class="w3-button w3-white" style="border: 1px #212529; width: 100px; height: 50px;"> White </button>
+                    &#160; &#160;
+                    <button class="w3-button w3-black" style="border: 1px #212529; width: 100px; height: 50px;"> Black </button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tab-pane fade" id="3">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                    <h3>Table</h3>
+                    <hr>
+                    <table class="table" cellspacing="0" cellpadding="3">
+                        <tr>
+                            <th>STT</th>
+                            <th>Chức năng</th>
+                            <th>Người đề xuất</th>
+                            <th>Người thiết kế</th>
+                            <th>Người hiện thực</th>
+                            <th>Thời gian đề xuất</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>xxx</td>
+                            <td>yyy</td>
+                            <td>zzz</td>
+                            <td>aaa</td>
+                            <td>bbb</td>
+                            <td>ccc</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>123</td>
+                            <td>456</td>
+                            <td>789</td>
+                            <td>xyz</td>
+                            <td>abc</td>
+                            <td>def</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>asd</td>
+                            <td>qwe</td>
+                            <td>zxc</td>
+                            <td>poi</td>
+                            <td>lkj</td>
+                            <td>mnb</td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container tab-pane fade" id="4">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                    <h3>Icons</h3>
+                    <hr>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="fab fa-windows" style="font-size: 30px"></i></button>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="far fa-envelope" style="font-size: 30px"></i></button>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="fas fa-map-marker-alt fa-lg" style="font-size: 30px"></i></button>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="fas fa-phone-alt" style="font-size: 30px"></i></button>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="fab fa-facebook-square" style="font-size: 30px"></i></button>
+                    <button class="w3-button icon w3-light-grey" style="width: 125px; height: 65px;"><i class="fab fa-twitter" style="font-size: 30px"></i></button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container tab-pane fade" id="5">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                    <h3>Layout</h3>
+                    <hr>
+                    <div class="w3-row-padding w3-center">
+                        <div class="w3-col m5">
+                            <img src="l1.png" style="width: 100%; height: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Layout 1">
+                        </div>
+                        <div class="w3-col m5">
+                            <img src="l2.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Layout 2">
+                        </div>
+                        <div class="w3-col m5">
+                            <img src="l3.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Layout 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container tab-pane fade" id="6">
+            <div class="w3-container w3-padding-35 pad">
+                <div class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                    <h3>Directory</h3>
+                    <hr>
+                    <img src="d.png" style="height: 100%">
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="w3-center w3-black w3-padding-16" style="text-align: center">
-    <i class="far fa-envelope" style="font-size: 23px"></i> &#160;
-    <i class="fas fa-map-marker-alt fa-lg"></i> &#160;
-    <i class="fab fa-twitter" style="font-size: 23px"></i>
-
-    <br>&#160;
-
+    <p><i class="far fa-envelope" style="font-size: 23px"></i> 17130269@st.hcmuaf.edu.vn
+    <p><i class="fas fa-map-marker-alt fa-lg"></i> Nong Lam University
+    <p><i class="fas fa-phone-alt" style="font-size: 23px"></i> +84929483585
+        <br>
     <p>Copyright ©2019 All rights reserved | This template is made by Group 17</p>
     <p>Thank you for visiting our website. Wish you have a happy experience.</p>
 </footer>
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+        });
+    });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
