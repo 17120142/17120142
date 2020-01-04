@@ -198,13 +198,16 @@ a.nut:hover{
     color: #555555;
     text-decoration: none;
 }
-
 a.nut:active{
     background: silver;
     text-decoration: none;
 }
 a.nut:link{
-    color: black;
+    color: #ffffff;
+    text-decoration: none;
+}
+a.nut:visited{
+    color: lightgrey;
     text-decoration: none;
 }
 
@@ -261,5 +264,8 @@ a.link-bre:hover{
     text-decoration: none;
 }
 
+ol.li.a.link-link:hover{
+    color: lightgrey;
+}
 
 
