@@ -27,10 +27,14 @@ summary {
      display: list-item;
 }
 a{
-    background-color:transparent
+    background-color: #ffffff;
 }
 a:active,a:hover{
-    outline-width:0
+    outline-width:0;
+    color: lightgrey;
+}
+a:link{
+    color: black;
 }
 abbr[title]{
     border-bottom:none;
@@ -97,9 +101,7 @@ hr{
 img{
     vertical-align:middle;
 }
-a{
-    color:inherit;
-}
+
 .table{
     border-collapse:collapse;
     width: 100%;
@@ -155,7 +157,7 @@ typography {
     float: left !important;
 }
 
-.breadcrumb{
+.breadcrumbss{
     top: 10px;
     padding-right: 0;
     background: none;
@@ -202,7 +204,7 @@ a.nut:active{
     text-decoration: none;
 }
 a.nut:link{
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 
@@ -218,6 +220,49 @@ a.nut1:active{
 a.nut1:link{
     color: black;
     text-decoration: none;
+}
+
+a.link-web{
+    text-decoration: none;
+    color: silver;
+}
+a.link-web:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a.link-nut:link{
+    color: #555555;
+    text-decoration: none;
+}
+a.link-nut:hover{
+    color: black;
+    text-decoration: none;
+}
+
+a.link-link:link{
+    color: black;
+    text-decoration: none;
+}
+a.link-link:hover{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.fab{
+    color: #555555;
+}
+.fab:hover{
+    color: black;
+}
+
+a.link-bre:hover{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+ol.li.a.link-link:hover{
+    color: lightgrey;
 }
 
 
