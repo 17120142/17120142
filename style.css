@@ -169,6 +169,7 @@ typography {
 .breadcrumbs{
     padding: 10px 0 6px;
     overflow: hidden;
+
 }
 
 .pad{
@@ -201,8 +202,7 @@ a.nut:active{
     text-decoration: none;
 }
 a.nut:link{
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
-
 
