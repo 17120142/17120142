@@ -206,3 +206,18 @@ a.nut:link{
     text-decoration: none;
 }
 
+a.nut1:hover{
+    color: #555555;
+    text-decoration: none;
+}
+
+a.nut1:active{
+    background: silver;
+    text-decoration: none;
+}
+a.nut1:link{
+    color: black;
+    text-decoration: none;
+}
+
+
